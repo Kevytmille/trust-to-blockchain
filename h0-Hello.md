@@ -1,14 +1,9 @@
-# One hash makes heading one 
+# h0 hello 
 
-Regular text is just written. 
+This the text to check that text is shown. 
 
 Empty line adds a paragraph break. 
 
-## Two hashes make heading two
+## This the heading two for test purposes
 
-URLs are rendered automatically, like http://TeroKarvinen.com
-
-Code is indented with four spaces (or a tab)
-
-    $ ls
-    hello-tero.md
+i will upload it to: https://app.terokarvinen.com/
