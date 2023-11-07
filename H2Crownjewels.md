@@ -48,3 +48,9 @@ I chose Intrusion attempt 3 from the Hutchins et al 2011 paper found here: https
 
 Following the kill chain diagram, the intrusion had already gone through phases, Reconnaissance and Weaponization and the kill-chain was stopped at Delivery. The target they attempted to exploit was know and had been sent a personal E-mail to from within the company. The method of starting the intrusion was a 0day exploit found in PowerPoint. However, the evil people made a mistake and used the same downstream IP-address to connect to the internal webmail service the e-mail containing the PowerPoint was sent from. This allowed the intrusion detection team to intercept and stop the malicious PowerPoint file from ever doing any harm. On the even worse side for the people with malicious intent, the PowerPoint was now being analyzed and they were able to discover the 0day exploit within it without it ever got a chance of being used against them.
 
+
+## C)
+
+I missread the task and used Hyper-V to create the virtual machine (as that is what i am used to use for virtualization) that i installed debian on, the process of installing debian was identical to what is described in the task: https://terokarvinen.com/2021/install-debian-on-virtualbox/ , However the Hyper-V settings needed to have secure boot disabled but othen that it was a standard job, much like is described here: https://techlabs.blog/categories/debian-linux/create-a-debian-linux-virtual-machine-using-hyper-v .
+
+I ran into the black screen error, which was extremly annoying on hyper-v as it stopped the VM from properly closing and a reboot was needed until i managed to do the "Solve a Black Screen with xforcevesa (optional)" part of Tero's debian installation guide.
