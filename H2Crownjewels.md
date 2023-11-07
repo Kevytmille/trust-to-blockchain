@@ -31,7 +31,8 @@ The Socks™ are honestly of poor quality and outsourced to a third-party suppli
 Hence, the most important part of the company is its appearance to the public and the customers. The most obvious risk is therefore the loss of customer data, or that information of a possible data leak is made public.
 
 The following risk-assessment is done in an internal meeting:
- Riskassesement.png
+
+https://github.com/Kevytmille/trust-to-blockchain/blob/main/Riskassesement.png
 
 The risk-assessment reveals that even if it is very unlikely that all systems are down at the same time (Risk1, R1) it is a possible scenario with extremely severe consequences that needs to be taken seriously and a plan needs to be formulated immediately, one possible scenario is to separate all systems, either to different suppliers or otherwise block from a centralized access to stop any lateral movement between attackers.
 
