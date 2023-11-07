@@ -3,12 +3,19 @@
 
 The current world has evolved beyond the simple intrusion detection of a firewall and anti-virus. The modern attacks are sophisticated and social engineered attacks that conventional “yes/no” roadblocks are not able to stop in time.
 The kill chain is divided into seven categories:
+
 •	Reconnaissance
+
 •	Weaponization
+
 •	Delivery
+
 •	Exploitation
+
 •	Installation
+
 •	Command and Control (C2)
+
 •	Actions on Objectives
 
 The idea of the kill chain is that before the attacker would be able to actually achieve its mission (or objectives) it would need to go through steps 1-6 first. Thus if you are able to stop the attack at any point before, you can successfully stop the attack before it happens. (https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf)
