@@ -1,5 +1,5 @@
 
-##X)
+## X)
 
 The current world has evolved beyond the simple intrusion detection of a firewall and anti-virus. The modern attacks are sophisticated and social engineered attacks that conventional “yes/no” roadblocks are not able to stop in time.
 The kill chain is divided into seven categories:
@@ -15,7 +15,7 @@ The idea of the kill chain is that before the attacker would be able to actually
 
 I see this as perfectly clear way of thinking about it, if it’s a day0 vulnerability there is no single system that can stop the attack before it happens. However if you can increase the security profile of the entire company, the chance that the attack will get all the way to step 7 is lowered by a huge margin. This is simple training for user like “don’t open PDFs you are not expecting”, not having the users as admins on their own machines, maybe even have a deep discussion on what information is truly necessary to be public in the marketing materials. All these combined will hinder (or at least slow down) and attack before it can get to actually infect and control a computer in the internal network. 
 
-##A)
+## A)
 
 The company is Kim’s Oy and it does high-quality socks that are so in-style right now that all the high profile people want to use them and so most of the worlds high profile people are found in the company CRM systems.
 
@@ -34,7 +34,7 @@ The risk marked with green (risk5, R5) is an acceptable risk that is notified it
 
 The risk-assessment meetings should take place annually at least once, and the severe risks have their own individual task-force that will allocate resources to assess and work on mitigating the risk of happening.
 
-##B)
+## B)
 
 I chose Intrusion attempt 3 from the Hutchins et al 2011 paper found here: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
 
