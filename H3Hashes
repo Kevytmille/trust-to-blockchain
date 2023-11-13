@@ -7,7 +7,7 @@ the has would also change, thus it becomes a reliable way of saying with an extr
 
 
 # A)
-  after some minor trying i was unable to get a 0, but google is your friend and i found this: https://stackoverflow.com/questions/3180374/can-an-md5-hash-begin-with-a-zero
+  after some minor trying i was unable to get a 0 at the start of the hash, but google is your friend and i found this: https://stackoverflow.com/questions/3180374/can-an-md5-hash-begin-with-a-zero 
 
 #  B)
   Oh no! it changed!
@@ -25,4 +25,4 @@ the has would also change, thus it becomes a reliable way of saying with an extr
   Hyper-v only supports GPU Pass-through on certain GPU models, i am unable to complete this task :(
 
 # N)
-  cd827c33216d4e6e46bc60699f3e18a1 | mille , with hashrate of 2311,6 kH/s
+  cd827c33216d4e6e46bc60699f3e18a1 | mille , with a hashrate of 2311,6 kH/s
