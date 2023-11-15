@@ -45,7 +45,7 @@ the has would also change, thus it becomes a reliable way of saying with an extr
 
   gave me the options of Blowfish(openBSD), Woltlab runing board 4.x and bcrypt, i looked up the modes from: https://hashcat.net/wiki/doku.php?id=example_hashes
   
-  https://github.com/Kevytmille/trust-to-blockchain/blob/main/Hashcat-pic1.PNG?raw=true
+  [https://github.com/Kevytmille/trust-to-blockchain/blob/main/Hashcat-pic1.PNG?raw=true](https://github.com/Kevytmille/trust-to-blockchain/blob/main/Hashcat-pic1.PNG)
 
   and tried it with hashcat mode -3200 for blowfish, it seemd to be right one and after a minute or so it gave me the hash of "12345". However the hashrate was a stable 0 H/s
 
