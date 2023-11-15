@@ -41,7 +41,7 @@ the has would also change, thus it becomes a reliable way of saying with an extr
   After realizing that hashcat has different modes i got this working as well with -m 1000 and the hash was "monkey"
 
 # E) 
-  hashid '$2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu' ( i realized you need to put it withing '' or you get a seperator error)
+  hashid '$2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu' ( i realized you need to put it within '' or you get a seperator error)
 
   gave me the options of Blowfish(openBSD), Woltlab runing board 4.x and bcrypt, i looked up the modes from: https://hashcat.net/wiki/doku.php?id=example_hashes
   
