@@ -15,7 +15,7 @@ This is how Alice can send a message to Bob using public-key cryptography:
 
 (4) Bob decrypts Alice's message using his private key.
 
-# The same function, described above, works for public-key cryptosystems, but in that case nobody needs to send the public key to eachother. The public keys are stored in public database.
+The same function, described above, works for public-key cryptosystems, but in that case nobody needs to send the public key to eachother. The public keys are stored in public database.
 
 # Digital signatures
 
