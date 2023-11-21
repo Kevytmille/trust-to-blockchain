@@ -64,6 +64,22 @@ It is unpredictable. It must be computationally infeasible to predict what the n
 ## Real random: 
 It cannot be reliably reproduced. If you run the sequence generator twice with the exact same input (at least as exact as humanly possible), you will get two completely unrelated random sequences.
 
+# A)
+Our internal ERP system sends information (WorkOrders, Invoices) over a VPN tunnel to the HQ SAP system. The VPN tunnel itself has been set up using public key exchange to verify that both parties can trust the other
+and that the data moving between the two VPN points are encrypted. At the same time, the we are encrypting the messages sent with the SAP public key that they decrypt using their private key. 
+(no source, just how i remember it being... i might be wrong on sooo many points)
 
+# D)
+Eve is unable to eavesdrop on the converstaions between Bob and Alice as long as their private keys are kept private. Eve is able to intercept and copy the encrypted messaged between them, she is also able to get her
+hands on both Alice and Bobs public keys. However without a pricate key, she is unable to decrypt the message and is only able to know the amount of messages Bob and Alice send to eachother and at what time. 
 
+Mallory is able to fool Bob into helping him decrypt Alices message, this is explained in chapter 2.7 of Schneier 2015: Applied Cryptography. If Mallory can fool Bob into thinking he is Alice:
+Mallory encrypts Alices message with his own private key and sends it to Bob
+Bob will decrypt it with Mallorys public key and the message is gibberish, but if Bob then signs it with his own key and sends it back
+Mallory can then decrypt it with his own private key, then re-encrypt it with Bobs private key, use his private key again to encrypt it and then finally encrypt it with Alies public key he will have access to alices message
+Its hard to summarise, but the mathematical formula presnted in the chapter helps to understand this a bit better.
+
+# F)
+
+Not using a keypass system will most likely lead to over-use of the same password making multiple systems at risk if even one system is hacked. 
 
