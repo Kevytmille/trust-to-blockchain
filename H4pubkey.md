@@ -69,9 +69,23 @@ Our internal ERP system sends information (WorkOrders, Invoices) over a VPN tunn
 and that the data moving between the two VPN points are encrypted. At the same time, the we are encrypting the messages sent with the SAP public key that they decrypt using their private key. 
 (no source, just how i remember it being... i might be wrong on sooo many points)
 
+# B)
+I was able to follow Teros guide and create an encrypted message from Alice to my other user Mille, I followed Teros guide to the T. but here is a link to a word file with all the screenshot and short commentary:
+https://github.com/Kevytmille/trust-to-blockchain/blob/main/H4-gpg.docx
+
+I was unable to get it working the other way around, and i have some serious issues with copying the documents using the commandline and cp -v command, so i used the OS GUI like windows peasent IT-person i am... 
+
+# C)
+does using outlook with a message encryptiong count for this task?
+Atleast the reference material found at: https://support.microsoft.com/en-us/office/encrypt-email-messages-373339cb-bf1a-4509-b296-802a39d801dc
+
+lists that it using a public-key pair for the encryption. "Only the recipient who has the private key that matches the public key used to encrypt the message can decipher the message for reading."
+
+So Microsoft is working like Trent (from the earlier material) as the arbitrer who handles who has access rights to the private key used to encrypt the message and what key is used depening on who you send the message to. This ofcourse requires you to validate yourself and to use Microsoft O365.
+
 # D)
 Eve is unable to eavesdrop on the converstaions between Bob and Alice as long as their private keys are kept private. Eve is able to intercept and copy the encrypted messaged between them, she is also able to get her
-hands on both Alice and Bobs public keys. However without a pricate key, she is unable to decrypt the message and is only able to know the amount of messages Bob and Alice send to eachother and at what time. 
+hands on both Alice and Bobs public keys. However without a private key, she is unable to decrypt the message and is only able to know the amount of messages Bob and Alice send to eachother and at what time. 
 
 Mallory is able to fool Bob into helping him decrypt Alices message, this is explained in chapter 2.7 of Schneier 2015: Applied Cryptography. If Mallory can fool Bob into thinking he is Alice:
 Mallory encrypts Alices message with his own private key and sends it to Bob
@@ -81,5 +95,9 @@ Its hard to summarise, but the mathematical formula presnted in the chapter help
 
 # F)
 
-Not using a keypass system will most likely lead to over-use of the same password making multiple systems at risk if even one system is hacked. 
+Not using a keypass system will most likely lead to over-use of the same password making multiple systems at risk if even one system is hacked. This makes you far less vulnerable to phising attacks.
+We use keypass: https://keepass.info/ , as a centralized tool to store our work related internal password for different servers and systems that do not need or have personalized accounts for the daily work.
+
+## Refered tasks from:
+  https://terokarvinen.com/2023/trust-to-blockchain/
 
