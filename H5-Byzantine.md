@@ -24,7 +24,10 @@
   https://github.com/Kevytmille/trust-to-blockchain/blob/main/electrum-working.PNG
 
 ## C)
-  I asked for 0.01mBTC more from testnet faucet and tried sending them to Teros wallet listed on the webpage: https://terokarvinen.com/2023/trust-to-blockchain/
+  I asked for 0.01mBTC more from testnet faucet and tried sending 0.0042 of them to Teros wallet listed on the webpage: https://terokarvinen.com/2023/trust-to-blockchain/ 
+  and got the following message:
+  https://github.com/Kevytmille/trust-to-blockchain/blob/main/Electrum-transactionfee.PNG
+  Thats one spicy transaction fee!
 
 ## D)
 i looked at random a block from the block explorer: https://blockstream.info/block/0000000000000000000323449ea45ec3467b2c6ba9a9471d2de8a778cf8dd68f?expand
