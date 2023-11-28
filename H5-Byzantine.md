@@ -21,12 +21,14 @@
 
 ## A) and B)
   I was able to complete this task during the last lecture and sent 0.01mBTC to Tero
+  https://github.com/Kevytmille/trust-to-blockchain/blob/main/electrum-working.PNG
 
 ## C)
   I asked for 0.01mBTC more from testnet faucet and tried sending them to Teros wallet listed on the webpage: https://terokarvinen.com/2023/trust-to-blockchain/
 
 ## D)
 i looked at random a block from the block explorer: https://blockstream.info/block/0000000000000000000323449ea45ec3467b2c6ba9a9471d2de8a778cf8dd68f?expand
+https://github.com/Kevytmille/trust-to-blockchain/blob/main/bitcoin-block-explorer.PNG
 It lists various information about the block and i googled what the different attributes mean:
 ### Height
 The current block height is simply the number of blocks in the blockchain minus one.
