@@ -31,13 +31,17 @@ Additional Examples:
 I tried following the guide listed here:
 https://community.torproject.org/relay/setup/bridge/debian-ubuntu/ 
 But I ran into several errors and had to resort to simply installing it on my windows device.
-I downloaded the installer from: https://www.torproject.org/download/ and installed it with default settings. It works!
+https://github.com/Kevytmille/trust-to-blockchain/blob/main/Tor1-error.PNG
+
+So I downloaded the installer from: https://www.torproject.org/download/ and installed it with default settings. It works!
 
 
 ## B)	Browsing with Tor:
+https://github.com/Kevytmille/trust-to-blockchain/blob/main/Tor-Browsing-1.PNG
+Not sure what exaclty to try to find a bit overwhelmed here, but a quick search and we got drugs!
+https://github.com/Kevytmille/trust-to-blockchain/blob/main/Tor-Browsing-2.PNG
 
-
-I did not think of a forum I would like to visit on the darknet, and I was unable to find darknet site of a well-known company. DuckDuckGo gives me “regular” pages when I tried a few companies I could think of.
+I did not think of a forum I would like to visit on the darknet, and I was unable to find darknet site of a well-known company. DuckDuckGo gives me only “regular” pages when I tried a few companies I could think of.
 
 # C)	Anonymity
 
