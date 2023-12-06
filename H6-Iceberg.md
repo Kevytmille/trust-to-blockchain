@@ -1,15 +1,15 @@
-## X) Basic Information:
+# X) Basic Information:
 •	Tor is a modified web browser for anonymous use that hides your IP address.
-# History and Intended Use:
+## History and Intended Use:
 •	Created by the US government in 2002, Tor enables private online communication.
 •	Used for both legal and illegal activities.
 •	Ongoing development to keep it up to date and secure.
-# How It Works:
+## How It Works:
 •	Tor directs internet traffic through random relays, encrypting data for anonymity. The route changes every 10 minutes, making tracking Tor traffic very difficult. An analogy is mailing a letter through different people, each unwrapping only the outermost layer (probably where they got the idea for the onion logo) of encryption.
-# Exit Node Reality:
+## Exit Node Reality:
 •	Illustrates a case where someone running a Tor exit node was mistakenly raided for child pornography distribution. This highlights how innocent individuals operating exit nodes can be wrongly implicated due to Tor's anonymity due to people not understanding how Tor works.
 
-# Tracking Criminals Using Tor:
+## Tracking Criminals Using Tor:
 •	Governments worldwide are working on deanonymizing Tor to find criminals or restrict citizens' internet access. Successes often result from exploiting suspects' errors rather than breaking Tor itself. 
 Breaking Tor Possibility:
 •	The FBI successfully took down a child pornography hosting service by exploiting a Firefox bug in Tor browsers. Tor's biggest weakness is the user; customization can leak information. 
@@ -26,7 +26,7 @@ Additional Examples:
 •	A Harvard student using Tor for email bomb threats was caught when IT logs revealed his Tor access during the threat period.
 •	Cases are often solved through suspects' mistakes, like inadvertently using a non-Tor browser, revealing their true IP address to victims.
 
-## A)	TOR browser installation:
+# A)	TOR browser installation:
 
 I tried following the guide listed here:
 https://community.torproject.org/relay/setup/bridge/debian-ubuntu/ 
@@ -36,7 +36,7 @@ https://github.com/Kevytmille/trust-to-blockchain/blob/main/Tor1-error.PNG
 So I downloaded the installer from: https://www.torproject.org/download/ and installed it with default settings. It works!
 
 
-## B)	Browsing with Tor:
+# B)	Browsing with Tor:
 https://github.com/Kevytmille/trust-to-blockchain/blob/main/Tor-Browsing-1.PNG
 Not sure what exaclty to try to find a bit overwhelmed here, but a quick search and we got drugs!
 https://github.com/Kevytmille/trust-to-blockchain/blob/main/Tor-Browsing-2.PNG
