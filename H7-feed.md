@@ -6,7 +6,7 @@ The industrial devices are widely un-secure, there has previously NOT been a uni
 Things like elevators, cranes, mining equipment etc.
 However nowaday everything is connected and they pose a security risk if a possibility of outside tampering would be possible. 
 
-The different security levels are listed as:
+## The different security levels are listed as:
 
   SL1 - Unintentional or accidental misuse  
   
@@ -17,7 +17,7 @@ The different security levels are listed as:
   SL4 - Sophisticated means with extensive resources, IACS-specific knowledge and high motivation  
 
 
-There is also the problem of network zones, the different layers Lauri goes through are:
+## There is also the problem of network zones, the different layers Lauri goes through are:
 
   Control (Anaalog proprietary)
   
