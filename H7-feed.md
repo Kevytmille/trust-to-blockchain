@@ -8,13 +8,13 @@ However nowaday everything is connected and they pose a security risk if a possi
 
 The different security levels are listed as:
 
-  SL1 - Unintentional or accidental misuse
+  SL1 - Unintentional or accidental misuse  
   
-  SL2 - Simple means with few resources, general skillss and low motivation
+  SL2 - Simple means with few resources, general skillss and low motivation  
   
-  SL3 - Sophisticated means with moderate resources, IACS-Specific knowledge and moderate motivation
+  SL3 - Sophisticated means with moderate resources, IACS-Specific knowledge and moderate motivation  
   
-  SL4 - Sophisticated means with extensive resources, IACS-specific knowledge and high motivation
+  SL4 - Sophisticated means with extensive resources, IACS-specific knowledge and high motivation  
 
 
 There is also the problem of network zones, the different layers Lauri goes through are:
