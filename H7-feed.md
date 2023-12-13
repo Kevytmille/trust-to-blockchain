@@ -19,7 +19,7 @@ However nowaday everything is connected and they pose a security risk if a possi
 
 ## There is also the problem of network zones, the different layers Lauri goes through are:
 
-  Control (Anaalog proprietary)
+  Control (Analog proprietary)
   
   Field network (Fieldbus)
   
